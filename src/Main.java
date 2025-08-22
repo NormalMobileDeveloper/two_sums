@@ -9,6 +9,7 @@ public class Main {
         main.twoSums(arr, 13);
     }
 
+
     public void twoSums(int[] arr, int target) {
         Map<Integer, Integer> myMap = new HashMap<>();
         for (int i = 0; i < arr.length; i ++) {
